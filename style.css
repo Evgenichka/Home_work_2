@@ -1,0 +1,119 @@
+.body{
+    font-family: sans-serif;
+}
+
+
+a { 
+    text-decoration: none; 
+}
+
+.menu{
+color: rgb(71, 9, 19); 
+font-size: 30px;
+line-height: 40px;
+}
+
+.menu:hover{
+    color:rgb(189, 218, 59)
+}
+
+
+.title{
+
+color: rgb(61, 146, 4);
+font-size: 42px;
+line-height: 24px;
+font-weight: bold;
+}
+
+.text{
+
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px; 
+color: #137255
+}
+
+.subtitle{
+
+color: coral;
+font-style: normal; 
+font-weight: 700; 
+font-size: 36px; 
+line-height: 80px;
+}
+
+.subtitle::marker{
+    content: '✝ ';
+    font-size: 1.2em;
+
+}
+
+
+
+.nexttitle{
+
+    color: rgb(235, 54, 8);
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 36px; 
+    line-height: 80px;
+    }
+
+.image{
+    border-radius: 10px;
+    width: 450px;
+    height: 300px
+
+}
+
+.image:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 5px 10px rgba(0,0 ,0, 0.5);
+    transition: transform 700ms, box-shadow 700ms;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.form{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+
+.button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    
+}
+
+p::selection{
+    color: darkblue;
+    background-color: darksalmon;
+}
+p::first-letter{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(216, 14, 132);
+}
+
+p::first-line{
+    color: rgb(15, 3, 92);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
